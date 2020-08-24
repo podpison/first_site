@@ -1,0 +1,324 @@
+* {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  padding: 0;
+}
+.menu {
+  height: 50px;
+  position: absolute;
+  padding-left: 50%;
+  width: 50%;
+}
+.menu li {
+  float: right;
+  padding: 10px;
+  list-style: none;
+}
+#a {
+  color: gray;
+}
+.menu ul {
+  padding: 0;
+}
+.menu ul:after {
+  clear: both;
+  display: table;
+  width: 100%;
+  height: 0;
+  content: " ";
+}
+#call {
+  border: none;
+  border-radius: 1em;
+  background-color: #ea402f;
+}
+a {
+  text-decoration: none;
+}
+#second {
+  background-image: url(img/02.jpg);
+  padding-top: 280px;
+  text-align: center;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+#big {
+  font-size: 58px;
+  color: white
+}
+#small {
+  font-size: 28px;
+  color: white
+}
+#first {
+  margin-left: 120px;
+}
+#tickets {
+  font-size: 28px;
+  position: absolute;
+  top: 57%;
+  right: 45%;
+  border: none;
+  color: white;
+  border-radius: 1em;
+  background-color: #ea402f;
+}
+#third {
+  margin-top: 45px;
+  padding-left: 20%;
+  float: left;
+}
+#text03 {
+  position: absolute;
+  font-size: 28px;
+  right: 25%;
+  top: 98%;
+}
+.third_about {
+  position: absolute;
+  top: 105%;
+  right: 12%;
+  font-size: 20px;
+  color: gray;
+}
+#i_want_sales {
+  color: white;
+  display: block;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+#i_want_sales_border {
+  position: absolute;
+  top: 126%;
+  right: 39%;
+  border: none;
+  border-radius: 1em;
+  background-color: #ea402f;
+  height: 30px;
+  width: 200px;
+}
+#center {
+  position: absolute;
+  top: 145%;
+  right: 49%;
+  font-size: 30px;
+}
+#center_clients {
+  position: absolute;
+  top: 150%;
+  right: 45%;
+  font-size: 20px;
+  color: gray;
+}
+.pictures {
+  position: absolute;
+  top: 160%;
+  left: 20%;
+}
+#px22 {
+  font-size: 22px;
+}
+#about4{
+  color: gray;
+  font-size: 20px;
+}
+#picture05 {
+  position: absolute;
+  left: 110%;
+  top: 0;
+}
+#pictute06 {
+  position: absolute;
+  left: 210%;
+  top: 0;
+}
+#banket {
+  color: white;
+  display: block;
+  padding-left: 30px;
+  padding-top: 5px;
+}
+#banket_border {
+  position: absolute;
+  top: 215%;
+  left: 43%;
+  border: none;
+  background-color: #ea402f;
+  border-radius: 1em;
+  width: 180px;
+  height: 30px;
+}
+#kitchen {
+  position: absolute;
+  font-size: 28px;
+  left: 30%;
+  top: 230%;
+}
+#p07 {
+  position: absolute;
+  top: 240%;
+  left: 20%;
+}
+#russia {
+  position: absolute;
+  top: 265%;
+  left: 21%;
+  font-size: 28px;
+}
+#national {
+  position: absolute;
+  top: 265%;
+  left: 40%;
+  font-size: 28px;
+}
+#europa {
+  position: absolute;
+  top: 265%;
+  left: 62%;
+  font-size: 28px;
+}
+#p08 {
+  position: absolute;
+  top: 240%;
+  left: 41%;
+}
+#p09 {
+  position: absolute;
+  top: 240%;
+  left: 63%;
+}
+#go_to_menu {
+  display: block;
+  padding-left: 15px;
+  padding-top: 5px;
+  color: white;
+}
+#go_to_menu_border {
+  position: absolute;
+  top: 280%;
+  left: 43%;
+  border: none;
+  background-color: #ea402f;
+  border-radius: 1em;
+  width: 150px;
+  height: 30px;
+}
+#banket_rooms {
+  position: absolute;
+  top: 295%;
+  left: 35%;
+  font-size: 28px;
+}
+#xz {
+  position: absolute;
+  top: 300%;
+  left: 36%;
+  font-size: 22px;
+  color: gray;
+}
+#marry {
+  position: absolute;
+  top: 310%;
+  left: 0;
+}
+#new_year {
+  position: absolute;
+  top: 310%;
+  left: 25%;
+}
+#birthday {
+  position: absolute;
+  top: 310%;
+  left: 50%;
+}
+#ketring {
+  position: absolute;
+  top: 310%;
+  left: 75%;
+}
+#m {
+  position: absolute;
+  top: 315%;
+  font-size: 28px;
+}
+#ny {
+  position: absolute;
+  top: 315%;
+  font-size: 28px;
+  left: 26%;
+}
+#bd {
+  position: absolute;
+  top: 315%;
+  font-size: 28px;
+  left: 51%;
+}
+#k {
+  position: absolute;
+  top: 315%;
+  font-size: 28px;
+  left: 76%;
+}
+#v {
+  position: absolute;
+  top: 320%;
+  font-size: 22px;
+  left: 76%;
+}
+#show_yslygi {
+  color: white;
+  display: block;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+#show_yslygi_border {
+  position: absolute;
+  top: 345%;
+  left: 43%;
+  border: none;
+  border-radius: 1em;
+  background-color: #ea402f;
+  width: 180px;
+  height: 30px;
+}
+form {
+  position: absolute;
+  top: 352%;
+  left: 30%;
+  border: solid #ea402f;
+  width: 800px;
+  height: 100px;
+}
+#zaiavka{
+  padding-left: 14px;
+}
+#zaiavka_border{
+  position: absolute;
+  left: 75%;
+  top: 40%;
+  border: none;
+  border-radius: 1em;
+  width: 150px;
+  height: 20px;
+  background-color: #ea402f;
+}
+#forma {
+  border-radius: 1em;
+  padding-left: 1em;
+}
+#woprosi{
+  position: absolute;
+  top: 10px;
+}
+#knopka {
+  position: absolute;
+  bottom: 10px;
+  right: 15px
+}
+#input {
+  position: absolute;
+  bottom: 40px;
+}
