@@ -1,0 +1,189 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    max-width: 1250;
+    margin: 0 auto
+}
+
+header:after, .container:after, footer:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    color: #e0e0e0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu{
+    padding-top: 3%;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu ul{
+    list-style: none;
+    background-color: #313030;
+    line-height: 89px;
+    text-align: center;
+    }
+    
+.menu li:hover{
+    background-color: #ff3f40;
+    line-height: 89px;
+    padding: 0 2%;
+}
+
+.menu li + li{
+    padding-left: 4%;
+}
+
+.menu_h1{
+    font-size: 7vh;
+    font-family:"Open Sans - Extrabold", sans-serif;
+    font-weight: 800;
+}
+ 
+.h1_container{
+    margin-top: 108px;
+    width: 45%;
+}
+
+.about_organizaton_container{
+    margin-top: 36px;
+    width: 37%;
+}
+
+.about_organizaton{
+    font-family: "Open Sans";
+    line-height: 28px;
+}
+
+.button_container{
+    margin-top: 58px;
+    background-color: #ff2d2d;
+    width: 227px;
+    height: 55px;
+    border-radius: 5px;
+}
+
+.header_button{
+    font-family: "Open Sans";
+    margin: 20px 75px;
+    border: none;
+    background-color: #ff2d2d;
+    color: white;
+}
+
+.video{
+    float: right;
+    margin-top: -29.5%;
+    width: 45%;
+    height: 50%;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1250px){
+.menu_h1{
+    font-size: 5vh;
+}
+.about_organizaton_container{
+    font-size: 1.9vh;
+}
+.button_container{
+    width: 170px;
+}
+.header_button{
+    margin: 20px 50px;
+}
+.video{
+    margin-top: -36.5%;
+}
+
+}
+
+@media screen and (max-width: 1020px){
+.menu_h1{
+    font-size: 4vh;
+}
+.about_organizaton_container{
+    font-size: 1.8vh;
+}
+.button_container{
+    width: 130px;
+    height: 40px;
+}
+.header_button{
+    margin: 13px 38px;
+    font-size: 1.3vh;
+}
+.video{
+    margin-top: -40%;
+}
+
+}
+
+@media screen and (max-width: 700px){
+.menu_h1{
+    font-size: 3vh
+}
+.about_organizaton_container{
+    font-size: 1.7vh;
+}
+.button_container{
+    width: 100px;
+}
+.header_button{
+    margin: 12px 23px;
+}
+.video{
+    margin-top: -65.5%;
+}
+
+}
+@media screen and (max-width: 500px){
+.menu_h1{
+    font-size: 2.5vh;
+}
+.menu ul{
+    font-size: 0.7em;
+}
+.about_organizaton_container{
+    font-size: 1.6vh;
+    width: 45%;
+    line-height: 10px;
+}
+.video{
+    margin-top: -97%;
+}
+
+}
+
+@media screen and (max-width: 450px){
+.menu_h1{
+    font-size: 2vh;
+}
+.video{
+    margin-top: -105%;
+}
+
+}
